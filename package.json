@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-jm",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:5": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "5.1.0",
+    "zod": "3.25.30"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "standard": "^17.1.2"
+  },
+  "description": "",
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
